@@ -1,0 +1,22 @@
+{
+  "name": "nft-collection",
+  "version": "1.0.0",
+  "description": "palotologist nft collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palontologist/amazon-blockchain.git"
+  },
+  "author": "palontologist / 21givenchy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palontologist/amazon-blockchain/issues"
+  },
+  "homepage": "https://github.com/palontologist/amazon-blockchain#readme",
+  "devDependencies": {
+    "hardhat": "^2.9.9"
+  }
+}
