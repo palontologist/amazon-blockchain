@@ -97,8 +97,9 @@ function App() {
             div className = "container" >
             <
             br / >
+
             <
-            h1 > 🔮metaschool < /h1> <
+            h1 > 21 GIVENCHY < /h1> <
             h2 > NFT Marketplace < /h2> <
             p > Buy an NFT from our marketplace. < /p>
 
@@ -109,31 +110,31 @@ function App() {
                     p > Install Metamask wallet < /p>
                 )
             } <
-            /div> <
-            />
+            /div> < / >
         );
     }
 
     return ( <
-        >
-        <
-        div className = "container" >
-        <
-        br / >
-        <
-        h1 > 🔮metaschool < /h1>
+            >
+            <
+            div className = "container" >
+            <
+            br / >
+            <
+            h1 > 🔮metaschool < /h1>
 
-        <
-        h2 > NFT Marketplace < /h2> {
+
+            <
+            h2 > NFT Marketplace < /h2> {
             data.map((item, index) => ( <
-                div className = "imgDiv" >
+                div className = "imgDiv" > v000 >
                 <
                 img src = { item.url }
                 key = { index }
                 alt = "images"
                 width = { 250 }
                 height = { 250 }
-                /> <
+                />  <
                 button isLoading = { isMinting }
                 onClick = {
                     () => {
@@ -141,8 +142,8 @@ function App() {
                     }
                 } >
                 Mint - 0.01 eth <
-                /button> <
-                /div>
+                /button> < /
+                div >
             ))
         } <
         button onClick = {
@@ -153,12 +154,12 @@ function App() {
         Withdraw Money from Contract <
         /button>
 
-        <
-        /div>
+    <
+    /div>
 
-        <
-        />
-    );
+    <
+    />
+);
 }
 
 export default App;
